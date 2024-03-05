@@ -1,13 +1,17 @@
 body {
     display: grid;
     height:100%;
-    grid-template-areas: "header header" "project1 image1" "image2 project2";
-    grid-template-rows: 1fr 4fr 4fr ;
+    grid-template-areas: "header header" "pTitle1 pTitle1" "project1 image1" "pTitle2 pTitle2" "project2 image2";
+    grid-template-rows: 1fr 1fr 5fr 1fr 5fr ;
+	grid-template-columns: 3fr 2fr;
 	row-gap: 5px;
     align-items: center;
-    margin: 0;
     height: 100vh;
     width: 100vw;
+	margin: 0px;
+}
+#pTitle1{
+	grid-area: pTitle1;
 }
 
 #project1{
@@ -18,6 +22,10 @@ body {
 	grid-area: image1;
 }
 
+#pTitle2{
+	grid-area: pTitle2;
+}
+
 #project2{
 	grid-area: project2;
 }
@@ -25,6 +33,8 @@ body {
 #image2{
 	grid-area: image2;
 }
+
+
 
 .banner {
     grid-area: header;
@@ -36,7 +46,14 @@ body {
     background-size: cover;
     height:100%;
 }
-
+.projectTitle {
+	grid-area: pTitle;
+	text-align: center;
+    background-color: white;
+	height: 100%;
+	border-style: double;
+	border-width: 5px;
+}
 .project{
     background-color: lightgrey;
     color: black;
@@ -61,6 +78,12 @@ body {
 }
 
 .projectImage img{
-	max-width: 100%;
-	max-height: 100%;
+	width: 100%;
+}
+
+.projectImage p{
+	padding: 0px;
+	padding-left: 5px;
+	margin: 0px;
+	font-size: x-small;
 }
