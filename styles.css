@@ -3,7 +3,7 @@ body {
     height:100%;
     grid-template-areas: "header header" "pTitle1 pTitle1" "project1 image1" "pTitle2 pTitle2" "project2 image2";
     grid-template-rows: 1fr 1fr 5fr 1fr 5fr ;
-	grid-template-columns: 5fr 5fr;
+	grid-template-columns: 11fr 9fr;
 	row-gap: 5px;
     align-items: center;
     height: 100vh;
