@@ -7,7 +7,7 @@ dark shade   - 2E3339
 */
 
 
-@media (width <=900px) {
+@media (width <=800px) {
     body {
         background-color: #93A48F;
         display: grid;
@@ -19,7 +19,7 @@ dark shade   - 2E3339
     }
 }
 
-@media (width > 900px) {
+@media (width > 800px) {
     body {
         background-color: #93A48F;
         display: grid;
