@@ -11,7 +11,7 @@ dark shade   - 2E3339
     body {
         background-color: #93A48F;
         display: grid;
-        grid-template-areas: "header" "subTitle1" "uniAssignment1" "subTitle2" "personalProject1" "image1" "personalProject2" "image2";
+        grid-template-areas: "header" "subTitle1" "uniAssignment1" "uniAssignment2" "subTitle2" "personalProject1" "image1" "personalProject2" "image2";
         
         align-items: center;
         margin: 0px;
@@ -23,7 +23,7 @@ dark shade   - 2E3339
     body {
         background-color: #93A48F;
         display: grid;
-        grid-template-areas: "header header" "subTitle1 subTitle1" "uniAssignment1 uniAssignment1" "subTitle2 subTitle2" "personalProject1 image1" "personalProject2 image2";
+        grid-template-areas: "header header" "subTitle1 subTitle1" "uniAssignment1 uniAssignment1" "uniAssignment2 uniAssignment2" "subTitle2 subTitle2" "personalProject1 image1" "personalProject2 image2";
         
         grid-template-columns: 5fr 4fr;
         align-items: center;
@@ -60,6 +60,9 @@ dark shade   - 2E3339
     grid-area: uniAssignment1;
 }
 
+#uniAssignemnt2{
+    grid-area: uniAssignment2;
+}
 
 .banner {
     grid-area: header;
@@ -82,6 +85,14 @@ dark shade   - 2E3339
     box-sizing: border-box;
     
     height: 100%;
+}
+
+.project h2{
+    text-decoration: underline;
+}
+
+.project h3{
+    text-decoration: underline;
 }
 
 .project {
