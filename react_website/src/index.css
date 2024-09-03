@@ -24,7 +24,7 @@ dark shade   - 2E3339
 
 
 @media (width <=1000px) {
-    body {
+    #root {
         background-color: #93A48F;
         display: grid;
         grid-template-areas: "header" "subTitle1" "uniAssignment1" "uniAssignment2" "subTitle2" "personalProject1" "image1" "personalProject2" "image2";
@@ -36,7 +36,7 @@ dark shade   - 2E3339
 }
 
 @media (width > 1000px) {
-    body {
+    #root {
         background-color: #93A48F;
         display: grid;
         grid-template-areas: "header header" "subTitle1 subTitle1" "uniAssignment1 uniAssignment1" "uniAssignment2 uniAssignment2" "subTitle2 subTitle2" "personalProject1 image1" "personalProject2 image2";
