@@ -28,7 +28,7 @@ class UniversityProjects extends Component {
     render() {
         const Projects = [
             {
-                id: "uniAssignment 1",
+                id: "uniAssignment1",
                 title: "Programming Using an Object-Orientated Language - Revision App",
                 description: "For this module our main assignment was to code a revision app for use in a school; this was my first introduction to the Java programming language. I made use of various OOP principals such as inheritance, abstract classes and interfaces in an attempt to create a highly cohesive application with low coupling. I am unable to share the code due to university policy",
                 moduleMark: "84%",
@@ -36,7 +36,7 @@ class UniversityProjects extends Component {
                 date: "Year 1 Semester 2",
             },
             {
-                id: "uniAssignment 2",
+                id: "uniAssignment2",
                 title: "Introduction to Programming - Networking Assignment",
                 description: "For this module we worked with Arduinos and Arduino C to make various applications. For the main assignment I had to make a program about communicating on a simulated network. We were provided with functions for use to communicate with the various 'hosts' over different channels.",
                 moduleMark: "85%",
