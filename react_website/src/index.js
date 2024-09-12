@@ -101,7 +101,7 @@ class PersonalProjects extends Component {
         const projectsHTML = Projects.map((project) => {
             return (
                 <>
-                    <div className="project" id="personalProject1">
+                    <div className="project" id={project.projectid}>
                         <h2>{project.title}</h2>
                         <h3>Description</h3>
                         <p>{project.description}</p>
